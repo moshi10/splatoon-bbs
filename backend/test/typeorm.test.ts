@@ -16,5 +16,3 @@ const options: DataSourceOptions = {
   migrations: ['src/migration/**/*.ts'],
   subscribers: ['src/subscriber/**/*.ts'],
 };
-
-// ここに、テストを書く
