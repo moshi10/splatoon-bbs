@@ -7,7 +7,7 @@ const options: DataSourceOptions = {
   type: 'mysql',
   host: '172.17.0.2',
   port: 3306,
-  username: 'kazuhira',
+  username: 'user',
   password: 'password',
   database: 'practice',
   synchronize: true, // データベースにスキーマを自動反映させる（本番環境ではtrueにしないこと）
