@@ -2,6 +2,7 @@ services:
   db:
     image: mysql:8.0
     container_name: nestjs-mysql
+    command: --default-authentication-plugin=mysql_native_password
     volumes:
       - db-store:/var/lib/mysql
     environment:
