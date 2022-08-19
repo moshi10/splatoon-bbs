@@ -6,10 +6,10 @@ services:
     volumes:
       - db-store:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=password
-      - MYSQL_DATABASE=mysql
       - MYSQL_USER=user
       - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=mysql
       - TZ=Asia/Tokyo
     ports:
       - 3306:3306
